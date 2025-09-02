@@ -99,9 +99,8 @@ hello world
 cat > newfile 
 Hello world
 hello world
- ```
+ 
 grep Hello newfile 
-
 ## OUTPUT
 ![cat-file](./image/10-cat-file10.png)
 grep -v hello newfile 
