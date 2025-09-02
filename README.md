@@ -79,18 +79,16 @@ cat > file22
 
 cut -c1-3 file11
 ## OUTPUT
-
-
-
+![cat-file](./image/06-c%20at-file06.png)
 
 cut -d "|" -f 1 file22
 ## OUTPUT
-
+![cat-file](./image/07-cat-file07.png)
 
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![cat-file](./image/09-cat-file09.png)
 
 cat < newfile 
 ```
@@ -101,26 +99,21 @@ hello world
 cat > newfile 
 Hello world
 hello world
- 
+ ```
 grep Hello newfile 
+
 ## OUTPUT
-
-
-
-grep hello newfile 
-## OUTPUT
-
-
-
-
+![cat-file](./image/10-cat-file10.png)
 grep -v hello newfile 
 ## OUTPUT
+[cat-file](./image/11-cat-file11.png)
+
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
-
+![cat-file](./image/12-cat-file12.png)
 
 
 
@@ -128,7 +121,7 @@ cat newfile | grep -i -c "hello"
 ## OUTPUT
 
 
-
+![cat-file](./image/13-cat-file13.png)
 
 grep -R ubuntu /etc
 ## OUTPUT
