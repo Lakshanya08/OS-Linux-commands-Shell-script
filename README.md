@@ -51,15 +51,13 @@ cat < file2
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+![cat-file](./image/03%20-cat-file1file2.png)
 comm file1 file2
  ## OUTPUT
-
- 
+![cat-file](./image/03-cat-file4.png)
 diff file1 file2
 ## OUTPUT
-
-
+![cat-file](./image/05-cat-file05.png)
 #Filters
 
 ### Create the following files file11, file22 as follows:
