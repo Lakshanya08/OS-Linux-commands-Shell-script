@@ -124,13 +124,13 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
-
+![cat-file](./image/14-cat-file14.png)
 
 
 grep -w -n world newfile   
 ## OUTPUT
 
-
+![cat-file](./image/15-cat%20-file15.png)
 cat < newfile 
 ```
 Hello world
@@ -150,63 +150,63 @@ Unix is predecessor
 Linux is best in this World
 ^d
  ```
-egrep -w 'Hello|hello' newfile 
+egrep -w 'Hello|hello' newfile
 ## OUTPUT
 
-
+![cat-file](./image/17-cat-file17.png)
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
-
+![cat-file](./image/18-cat-file18.png)
 
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
-
+![cat-file](./image/19-cat-file19.png)
 
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
 
-
+![cat-file](./image/20-cat-file20.png)
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
+![cat-file](./image/21-cat-file21.png)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
-
+![cat-file](./image/22-cat-file22.png)
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
-
+![cat-file](./image/23-cat-file23.png)
 
 egrep '[1-9]' newfile 
 ## OUTPUT
-
+![cat-file](./image/24-cat-file24.png)
 
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
+![cat-file](./image/25-cat-file25.png)
 
 egrep 'Linux.*World' newfile 
 ## OUTPUT
-
+![cat-file](./image/26-cat-file26.png)
 
 egrep l{2} newfile
 ## OUTPUT
 
-
+![cat-file](./image/27-cat-file27.png)
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
 
-
+![cat-file](./image/28-cat-file28.png)
 cat > file23
 ```
 1001 | Ram | 10000 | HR
