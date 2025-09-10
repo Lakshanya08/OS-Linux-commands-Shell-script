@@ -307,11 +307,10 @@ cat > file21
 1003 | Joe |  7000 | Developer
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
-^d
 ``` 
 sort file21
 ## OUTPUT
-![cat-file](./image/45-cat-file45.png)
+
 
 cat > file22
 ```
@@ -321,18 +320,16 @@ cat > file22
 1003 | Joe |  7000 | Developer
 1005 | Sam |  5000 | HR
 1004 | Sit |  7000 | Dev
-^d
 ``` 
 uniq file22
 ## OUTPUT
-![cat-file](./image/46-cat-file46.png)
+
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
-![cat-file](./image/47-cat-file47.png)
 
 cat < urllist.txt
 ```
@@ -349,18 +346,18 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-![cat-file](./image/48--cat-file48.png)
+
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
 
-![cat-file](./image/49-cat-file49.png)
+
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
-![cat-file](./image/50-cat-file50.png)
+
 
 mkdir backupdir
  
@@ -371,20 +368,19 @@ cd backupdir
 tar -tvf backup.tar
 ## OUTPUT
 
-![cat-file](./image/51-cat-file51.png)
 
 tar -xvf backup.tar
 ## OUTPUT
-![cat-file](./image/52-cat-file52.png)
+
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
- ![cat-file](./image/53-cat-file53.png)
+ 
 gunzip backup.tar.gz
 ## OUTPUT
 
-![cat-file](./image/54-cat-file54.png)
+ 
 # Shell Script
 ```
 echo '#!/bin/sh' > my-script.sh
