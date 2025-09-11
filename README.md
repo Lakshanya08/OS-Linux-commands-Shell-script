@@ -448,20 +448,21 @@ chmod 777 scriptest.sh
  
 ls file1
 ## OUTPUT
-
+[cat-file](./image/58-cat-file58.png)
 echo $?
 ## OUTPUT 
+![cat-file](./image/59-cat-file59.png)
 ./one
 bash: ./one: Permission denied
- 
+ ![cat-file](./image/60-cat-file60.png)
 echo $?
 ## OUTPUT 
- 
+![cat-file](./image/61-cat-file61.png) 
 abcd
  
 echo $?
  ## OUTPUT
-
+![cat-file](./image/62-cat-file62.png)
 
  
 # mis-using string comparisons
