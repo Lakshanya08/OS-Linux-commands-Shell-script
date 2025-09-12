@@ -575,7 +575,7 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
-
+![cat-file](./image/66-cat-file66.png)
 
 # using numeric test comparisons
 cat > iftest.sh 
