@@ -666,8 +666,8 @@ fi
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
-##OUTPUT
-
+## OUTPUT
+![cat-file](./image/68-cat-file68.png)
 # looking for a possible value using elif
 cat elifcheck.sh 
 ```bash
@@ -695,7 +695,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
+![cat-file](./image/69-cat-file69.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -711,7 +711,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
-
+![cat-file](./image/70-cat-file-70.png)
 # using the case command
 cat >casecheck.sh 
 ```bash
@@ -730,7 +730,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+## OUTPUT
+![cat-file](./image/71-cat-file71.png)
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -746,7 +747,8 @@ $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- 
+## OUTPUT
+![cat-file](./image/72-cat-file72.png)
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -758,8 +760,10 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
- 
+
+ ./untiltest.sh
+ ## OUTPUT
+ ![cat-file](./image/73-cat-file73.png)
  
 cat forin1.sh 
 ```bash
@@ -772,8 +776,10 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
- 
+./forin1.sh
+## OUTPUT
+
+ ![cat-file](./image/74-cat-file74.png)
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -785,20 +791,10 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
-```
-$ chmod 755 forin2.sh
- 
-$ ./forin2.sh 
- 
+./forin2.sh
+## OUTPUT
+![cat-file](./image/76-cat-file76.png)
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -808,8 +804,10 @@ do
 echo "word:$test"
 done
 ```
-$ ./forin3.sh 
- 
+$ chmod 755 forin2.sh
+./forin3.sh 
+ ## OUTPUT
+ ![cat-file](./image/77-cat-file77.png)
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -820,8 +818,9 @@ echo The next state is $test
 done
 ```
 $ chmod 755 forin1.sh
-
+./forin1.sh
 ## OUTPUT
+![cat-file](./image/78-cat-file78.png)
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -833,6 +832,8 @@ echo "Visit beautiful $file“
 done
 ```
 $ chmod 777 forinfile.sh
+## OUTPUT
+![cat-file](./image/79-cat-file79.png)
 $ cat cities
 Hyderabad
 Alampur
@@ -843,7 +844,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+![cat-file](./image/80-cat-file80.png)
 
 cat forctype.sh 
 ```bash
@@ -857,7 +858,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
-
+![cat-file](./image/81-cat-file81.png)
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -870,7 +871,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
-
+![cat-file](./image/82-cat-file82.png)
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -889,7 +890,7 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
- 
+ ![cat-file](./image/83-cat-file83.png)
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -905,6 +906,7 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+![cat-file](./image/84-cat-file84.png)
 
 $ chmod 755 forbreak.sh
  
@@ -930,7 +932,7 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+ ![cat-file](./image/85-cat-file85.png)
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -944,7 +946,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
-
+![cat-file](./image/86-cat-file86.png)
 
  cat exread1.sh
 ```bash
@@ -958,7 +960,7 @@ $ chmod 755 exread1.sh
 ## OUTPUT
 
 
-
+![cat-file](./image/87-cat-file87.png)
 $ ./exread1.sh 
  
 cat funcex.sh
@@ -977,6 +979,7 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+![cat-file](./image/87-cat-file87.png)
  ./funcex.sh 
 
  
@@ -994,6 +997,7 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+![cat-file](./image/89-cat-file89.png)
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1011,6 +1015,7 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+![cat-file](./image/90-cat-file90.png)
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
@@ -1024,6 +1029,7 @@ done
 set +x
 ```
 ## OUTPUT
+![cat-file](./image/91-cat-file91.png)
  ./argshift.sh 1 2 3
  
  
@@ -1056,7 +1062,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![cat-file](./image/92-cat-file92.png)
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1083,7 +1089,7 @@ else
 fi
 ```
 ## OUTPUT 
-
+![cat-file](./image/93-cat-file93.png)
 
 # RESULT:
 The Commands are executed successfully.
