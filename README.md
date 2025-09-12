@@ -617,8 +617,8 @@ fi
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
-##OUTPUT
-
+## OUTPUT
+![cat-file](./image/67-cat-file67.png)
 # check if a file
 cat > ifnested.sh 
 ```bash
